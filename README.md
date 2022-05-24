@@ -61,12 +61,13 @@ The red lines show where my target zip codes are. Per the criteria that I was gi
 
 ##<b><u> Modelling</b></u>
 2 One Step Forecast SARIMA Models will be done on each Target Zip Code. 
-<b>Example: 29403:Charleston, SC
+<b>Example: 29403:Charleston, SC</b>
     
 <b><u>One-Step-Forecast: Model 1</b></u>
-![Charleston One-Step Forecast Model 1 ](![3 Year ROI Scatter Plot](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/3yr_ROI_scatterplot.png))
+![Charleston One-Step Forecast Model 21](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/charleston_one_step_1.png))
+ 
 
-<b><u>One-Step-Forecast: Model 1</b></u>
+<b><u>One-Step-Forecast: Model 2</b></u>
 ![Charleston One-Step Forecast Model 2](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/charleston_one_step_2.png))
 
 <b><u>Model Comparison & Selection</b></u>
