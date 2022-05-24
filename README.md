@@ -59,7 +59,7 @@ In my meeting with the executive team, I was given the following directions:</b>
 The red lines show where my target zip codes are. Per the criteria that I was given, the client wants to invest aproximately $500,000 per house per zip code. So I have set a range of 350,000 - 500,000 for home value. I also drew a vertical line at 50 Percent ROI as I am interested in the Zip Codes that are performing exceptionally well. The section of the scatterplot between the two horizontal red lines and to the right of the vertical line is where the Target Zip Codes are located.
 
 
-##<b><u> Modelling</b></u>
+Modelling
 2 One Step Forecast SARIMA Models will be done on each Target Zip Code. 
 <b>Example: 29403:Charleston, SC</b>
     
@@ -74,9 +74,9 @@ The red lines show where my target zip codes are. Per the criteria that I was gi
 Model 2's forecast is a better match for the test data. I will use this to make my predictions.
 
 <b><u>Charleston Forecast</b></u>
-![Charleston Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/charleston_forecast.png))
+![Charleston Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/charleston_forecast.png)
 
-<b><u>Final Analysis:<b></u>
+<b><u>Final Analysis:</b></u>
 - While 1-2 Years out looks good, there is too much uncertainty in Forecast Year 3 to recommend Charleston as one of the Top 5 Zip Codes.
 - That said, if you reduced the investment window to 1-2 years, Charleston is a good choice and therefore should be considered with that caveat.
 - <b> I will recommend this Zip Code as an alternative recommendation with the caveat that it should be re-evaulated during the 1-2 year range.</b>
@@ -93,28 +93,28 @@ Model 2's forecast is a better match for the test data. I will use this to make 
     
 ![Olalla Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/olalla_forecast.png)
     
-## <b><u> Final Analysis</b></u>
+##  Final Analysis</b></u>
 ![Recommend Zip Codes Forecast ROI](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/top_zips_forecast_roi.png)
     
-# <b><u>Recommendations</b></u>
+# Recommendations
 <u><b>The Top 5 Zip Codes completely meet the criteria that I was given:</u></b>
 
-- <b><u>Cost of Entry:</b></u> Average Home Values around 500,000 
+- Cost of Entry: Average Home Values around 500,000 
 -- (currently 370,000 - 489,000)
 
-- <b><u>Geographic Diversity:</b></u> Each is in a different State.
+- Geographic Diversity:Each is in a different State.
 
-- <b><u>High ROI:</b></u> Each is forecasted to have a high return on investment over the next 3 years.
+- High ROI: Each is forecasted to have a high return on investment over the next 3 years.
 
--- <b><u>Mean Forecast Values for Forecast Year 3:</b></u> 1.2% ROI - 1.6% ROI.
+-- Mean Forecast Values for Forecast Year 3: 1.2% ROI - 1.6% ROI.
 
--- <b><u>Mean Forecast ROI Amounts for Forecast Year 3:</b></u> 87,000 - 282,000.
+-- Mean Forecast ROI Amounts for Forecast Year 3: 87,000 - 282,000.
 
-- <b><u>Low Risk:</b></u> Each has been forecast with a low risk of losing money over the next 3 years.
+- Low Risk: Each has been forecast with a low risk of losing money over the next 3 years.
 
--- <b><u>Maximum Forecast Loss at Forecast Year 3 :</b></u> -5% ROI
+-- Maximum Forecast Loss at Forecast Year 3 : -5% ROI
 
-- <b><u>Timing:</b></u> All forecasts were for 3 years.
+- Timing: All forecasts were for 3 years.
 
 <b><u>Recommendation #2: ZipCodes for Shorter investment</b></u>
 ZipCodes that showed a good return with low risk for 1 or 2 years.
@@ -122,15 +122,15 @@ ZipCodes that showed a good return with low risk for 1 or 2 years.
 - 2. 98043 Mountlake Terrace WA
 
 <b><u>Conclusion</b></u>
-<b>These Zip Codes still show a lot of potental, but need to be watched more closely.</b> They all show great potentional for one or even two years of investment, but then the third year forecast becomes more uncertain.
+These Zip Codes still show a lot of potental, but need to be watched more closely. They all show great potentional for one or even two years of investment, but then the third year forecast becomes more uncertain.
 
 I am in confident in recommending both of these Zip Codes during that shorter investment window, and then running models again as more data comes in.
     
 - Analyzing the past performance over the last 3 years proved to be a good way to identify zip codes that have a high probability to continue performing well 2-3 years into the future.
 
-- While not all Zip Codes that I identified and targetted ended up being recommended, <b>I only had to model 15 Zip Codes in order to get my 5 "best" Zip Codes to recommend.</b> It also led to me discovering 2-3 Zip Codes that nearly met all criteria and became a strong alternative recommendation.
+- While not all Zip Codes that I identified and targetted ended up being recommended, I only had to model 15 Zip Codes in order to get my 5 "best" Zip Codes to recommend. It also led to me discovering 2-3 Zip Codes that nearly met all criteria and became a strong alternative recommendation.
 
-- The approach taken throughout this entire process is replicatable and can and should be done often to monitor zip codes where FRC is focusing as well as identifying new markets to enter into or increase their presence in. <b> If FRC continues to do this, they will have a disctinct competetive advantage in the markets where they have a presence and will be able to increase the value of their investments for both the Company and it's shareholders. </b>
+- The approach taken throughout this entire process is replicatable and can and should be done often to monitor zip codes where FRC is focusing as well as identifying new markets to enter into or increase their presence in. If FRC continues to do this, they will have a disctinct competetive advantage in the markets where they have a presence and will be able to increase the value of their investments for both the Company and it's shareholders.
 
 
    
