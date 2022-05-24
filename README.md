@@ -2,10 +2,11 @@
 
 ## Summary
 
-### Business Problem
-FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?<b>
+<b><u>Business Problem</b></u>
+FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?</b>
 
-FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?<b>
+FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?</b>
+    
     
 <b>Criteria:
 In my meeting with the executive team, I was given the following directions:</b>
@@ -25,7 +26,7 @@ In my meeting with the executive team, I was given the following directions:</b>
 - I will be using the Zillow Median Home Price Research Dataset. I contains the median home prices for every Zip Code in the United States by month from January 1996 - April 2018.
 - The data is fairly clean, although many of the Zip Codes don't have data towards the beginning of the dataset. My hypothesis is that these Zip Codes did not exist at that time. Either way, as this is all time series data, I will work with what I've got for each Zip Code.
     
-    <b><u>Summary of My Process:</b></u>
+## <b><u>My Process:</b></u>
 1) I searched the data provided for zip codes which have median housing prices near 500,000 at the end of the data (early 2018).
 
 2) I then analyzed the performance of those zip codes over the last 3 years.
@@ -52,12 +53,13 @@ In my meeting with the executive team, I was given the following directions:</b>
 
 13) In order to preserve geographic integrety (per the Criteria listed above), once a Zip Code had been selected as one of the Top 5, I bypassed any future Zip Codes from that state and pursued zip codes from the remaining states.
 
-<b><u>Target Zip Codes<b></u>
+## <b><u>Target Zip Codes<b></u>
 ![3 Year ROI Scatter Plot](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/3yr_ROI_scatterplot.png)
 
 The red lines show where my target zip codes are. Per the criteria that I was given, the client wants to invest aproximately $500,000 per house per zip code. So I have set a range of 350,000 - 500,000 for home value. I also drew a vertical line at 50 Percent ROI as I am interested in the Zip Codes that are performing exceptionally well. The section of the scatterplot between the two horizontal red lines and to the right of the vertical line is where the Target Zip Codes are located.
-    
-# <b><u>Modelling</b></u>
+
+
+##<b><u> Modelling</b></u>
 2 One Step Forecast SARIMA Models will be done on each Target Zip Code. 
 <b>Example: 29403:Charleston, SC
     
@@ -80,20 +82,20 @@ Model 2's forecast is a better match for the test data. I will use this to make 
 
 <b> After Modeling 15 Zip Codes, These are the 5 that I recommended</b>
     
-![College Grove Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/college_grove_forecast.png))
+![College Grove Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/college_grove_forecast.png)
     
-![Boston Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/boston_forecast.png))
+![Boston Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/boston_forecast.png)
     
-![Union City Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/union_city_forecast.png))
+![Union City Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/union_city_forecast.png)
     
-![Denver Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/denver_forecast.png))
+![Denver Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/denver_forecast.png)
     
-![Olalla Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/Olalla_forecast.png))
+![Olalla Final Forecast](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/olalla_forecast.png)
     
-<b><u> Final Analysis</b></u>
-![Recommend Zip Codes Forecast ROI](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/top_zips_forecast_roi.png))
+## <b><u> Final Analysis</b></u>
+![Recommend Zip Codes Forecast ROI](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/top_zips_forecast_roi.png)
     
-<b><u>Recommendations</b></u>
+# <b><u>Recommendations</b></u>
 <u><b>The Top 5 Zip Codes completely meet the criteria that I was given:</u></b>
 
 - <b><u>Cost of Entry:</b></u> Average Home Values around 500,000 
