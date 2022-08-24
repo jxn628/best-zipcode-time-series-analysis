@@ -1,4 +1,4 @@
-# Phase 4 Project: Real Estate Time Series Zip Code Analysis
+# Time Series Forecast Model for Real Estate Zip Code Analysis
 
 ## Summary
 
@@ -53,7 +53,7 @@ In my meeting with the executive team, I was given the following directions:</b>
 
 13) In order to preserve geographic integrety (per the Criteria listed above), once a Zip Code had been selected as one of the Top 5, I bypassed any future Zip Codes from that state and pursued zip codes from the remaining states.
 
-## <b><u>Target Zip Codes<b></u>
+## <b><u>Target Zip Codes</b></u>
 ![3 Year ROI Scatter Plot](https://github.com/jxn628/dsc-phase-4-project/blob/main/images/3yr_ROI_scatterplot.png)
 
 The red lines show where my target zip codes are. Per the criteria that I was given, the client wants to invest aproximately $500,000 per house per zip code. So I have set a range of 350,000 - 500,000 for home value. I also drew a vertical line at 50 Percent ROI as I am interested in the Zip Codes that are performing exceptionally well. The section of the scatterplot between the two horizontal red lines and to the right of the vertical line is where the Target Zip Codes are located.
