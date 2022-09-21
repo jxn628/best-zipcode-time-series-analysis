@@ -4,9 +4,6 @@
 
 <b><u>Business Problem</b></u>
 FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?</b>
-
-FRC Investors is a nationwide real estate investment company. They buy homes all across the country and then sell them through their realty branch, FRC Homes. FRC's executive team is interested in maximizing their efforts and has tasked me with answering the question:  <b>What are the top 5 best zip codes for us to invest in?</b>
-    
     
 <b>Criteria:
 In my meeting with the executive team, I was given the following directions:</b>
@@ -59,7 +56,7 @@ In my meeting with the executive team, I was given the following directions:</b>
 The red lines show where my target zip codes are. Per the criteria that I was given, the client wants to invest aproximately $500,000 per house per zip code. So I have set a range of 350,000 - 500,000 for home value. I also drew a vertical line at 50 Percent ROI as I am interested in the Zip Codes that are performing exceptionally well. The section of the scatterplot between the two horizontal red lines and to the right of the vertical line is where the Target Zip Codes are located.
 
 
-Modelling
+## <b><u>Modeling</b></u>
 2 One Step Forecast SARIMA Models will be done on each Target Zip Code. 
 <b>Example: 29403:Charleston, SC</b>
     
@@ -128,9 +125,17 @@ I am in confident in recommending both of these Zip Codes during that shorter in
     
 - Analyzing the past performance over the last 3 years proved to be a good way to identify zip codes that have a high probability to continue performing well 2-3 years into the future.
 
-- While not all Zip Codes that I identified and targetted ended up being recommended, I only had to model 15 Zip Codes in order to get my 5 "best" Zip Codes to recommend. It also led to me discovering 2-3 Zip Codes that nearly met all criteria and became a strong alternative recommendation.
+- While not all Zip Codes that I identified as targets ended up being recommended, I only had to model 15 Zip Codes in order to get my 5 "best" Zip Codes to recommend. It also led to me discovering 2-3 Zip Codes that nearly met all criteria and became a strong alternative recommendation.
 
 - The approach taken throughout this entire process is replicatable and can and should be done often to monitor zip codes where FRC is focusing as well as identifying new markets to enter into or increase their presence in. If FRC continues to do this, they will have a disctinct competetive advantage in the markets where they have a presence and will be able to increase the value of their investments for both the Company and it's shareholders.
 
+## Links
+
+![Final Jupyter Notebook](https://github.com/jxn628/best-zipcode-time-series-analysis/blob/main/EDA-Modeling-Evaluation.ipynb)
+
+![Presentation Slides](https://github.com/jxn628/best-zipcode-time-series-analysis/blob/main/ZipCode_TimeSeriesAnalysis_Presentation.pdf)
+
+![Blog Post](https://medium.com/@holtjd/thinking-your-way-through-a-data-science-project-c57dc83333f5)
+I used this project as the basis for a blog post explaining the thought process that a Data Scientist utilizes when going through a project. 
 
    
