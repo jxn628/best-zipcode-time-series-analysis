@@ -133,7 +133,7 @@ I am in confident in recommending both of these Zip Codes during that shorter in
 
 [Final Jupyter Notebook](https://github.com/jxn628/best-zipcode-time-series-analysis/blob/main/EDA-Modeling-Evaluation.ipynb)
 
-[Presentation Slides](https://github.com/jxn628/best-zipcode-time-series-analysis/blob/main/ZipCode_TimeSeriesAnalysis_Presentation.pdf)
+[Presentation Slides](https://github.com/jxn628/best-zipcode-time-series-analysis/blob/main/Zipcode_TimeSeriesAnalysis_slides%20.pdf)
 
 [Blog Post](https://medium.com/@holtjd/thinking-your-way-through-a-data-science-project-c57dc83333f5):
 I used this project as the basis for a blog post explaining the thought process that a Data Scientist utilizes when going through a project. 
